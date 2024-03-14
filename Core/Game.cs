@@ -1,4 +1,4 @@
-﻿using Awale.Interfaces;
+﻿using Awale.Components;
 
 namespace Awale.Core
 {
@@ -8,6 +8,11 @@ namespace Awale.Core
         {
             ArrayConstructor arrayConstructor = new ArrayConstructor();
             arrayConstructor.SendToDisplaying();
+            ReadyToPlay readyToPlay = new ReadyToPlay();
+            if (readyToPlay.isEmpty(arrayConstructor.cells))
+            {
+                readyToPlay.StartGame();
+            }
         }
     }
 }

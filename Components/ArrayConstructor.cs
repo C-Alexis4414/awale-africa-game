@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Awale.Interfaces
+namespace Awale.Components
 {
     public class ArrayConstructor
     {
-        private int[,] cells = new int[2, 6];
+        public int[,] cells = new int[2, 6];
         public ArrayConstructor()
         {
             for (int i = 0; i < 2; i++)
