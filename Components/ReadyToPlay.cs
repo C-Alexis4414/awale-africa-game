@@ -26,7 +26,37 @@ namespace Awale.Components
         // Si isEmpty retourne true, la partie peut commencer
         public void StartGame()
         {
-            Console.WriteLine("La partie peut commencer !");
+            // Demander à l'utilisateur s'il veut débuter une partie
+            Console.WriteLine("Voulez-vous débuter une partie ? (oui/non)");
+            string response = Console.ReadLine();
+            if (response == "oui")
+            {
+                Console.WriteLine("La partie va commencer");
+            }
+            else
+            {
+                Console.WriteLine("À une prochaine fois");
+            }
+            // Si la réponse de l'utilisateur est 'oui', demander au joueur 1 d'entrer son nom
+            if (response == "oui")
+            {
+                Console.WriteLine("Joueur 1, entrez votre nom : ");
+                // Va stocker le nom du joueur 1 dans la propriété Name de la classe Player
+                Player player = new Player();
+                string name = Console.ReadLine();
+                player.Name = name;
+                Console.WriteLine("Bienvenue " + name);
+            }
+            // Une fois que le joueur 1 a entré son nom, demander au joueur 2 d'entrer son nom
+            if (response == "oui")
+            {
+                Console.WriteLine("Joueur 2, entrez votre nom : ");
+                // Va stocker le nom du joueur 1 dans la propriété Name de la classe Player
+                Player player = new Player();
+                string name = Console.ReadLine();
+                player.Name = name;
+                Console.WriteLine("Bienvenue " + name);
+            }
         }
     }
 }
