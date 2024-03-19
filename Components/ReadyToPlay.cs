@@ -8,6 +8,7 @@ namespace Awale.Components
 {
     internal class ReadyToPlay
     {
+
         // Fonction isEmpty pour définir si toutes les cellules cells du plateau ArrayConstructor sont vides et si la partie peut commencer
         public bool isEmpty(int[,] cells)
         {
@@ -57,6 +58,16 @@ namespace Awale.Components
                 player.Name = name;
                 Console.WriteLine("Bienvenue " + name);
             }
+            // Quand les joueurs ont rentré leurs noms, initialiser la valeur des cells de la class ArrayConstructor à 4
+            ArrayConstructor arrayConstructor = new ArrayConstructor();
+                for (int i = 0; i < 2; i++)
+            {
+                    for (int j = 0; j < 6; j++)
+                {
+                    arrayConstructor.cells[i, j] = 4;
+                    }
+                }
+                arrayConstructor.SendToDisplaying();
         }
     }
 }
