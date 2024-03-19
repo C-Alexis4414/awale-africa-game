@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Awale.Core.Game">
+    <Position X="3.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Core\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Awale.Components.ArrayConstructor">
+    <Position X="3.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\ArrayConstructor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Awale.Components.ReadyToPlay">
+    <Position X="6" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Components\ReadyToPlay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Awale.Components.Player">
+    <Position X="9.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
