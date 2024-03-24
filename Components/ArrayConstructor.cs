@@ -19,6 +19,7 @@ namespace Awale.Components
                 }
             }
         }
+
         public void SendToDisplaying()
         {
             string[] letters = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L" };
