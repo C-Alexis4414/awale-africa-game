@@ -43,19 +43,16 @@ namespace Awale.Components
                 Console.WriteLine("Joueur 1, entrez votre nom : ");
                 // Va stocker le nom du joueur 1 dans la propriété Name de la classe Player
                 Player player = new Player();
-                string name = Console.ReadLine();
-                player.Name = name;
-                Console.WriteLine("Bienvenue " + name);
+                player.Name = Console.ReadLine();
+                Console.WriteLine("Bienvenue " + player.Name);
             }
-            // Une fois que le joueur 1 a entré son nom, demander au joueur 2 d'entrer son nom
             if (response == "oui")
             {
                 Console.WriteLine("Joueur 2, entrez votre nom : ");
-                // Va stocker le nom du joueur 1 dans la propriété Name de la classe Player
+                // Va stocker le nom du joueur 2 dans la propriété Name de la classe Player
                 Player player = new Player();
-                string name = Console.ReadLine();
-                player.Name = name;
-                Console.WriteLine("Bienvenue " + name);
+                player.Name = Console.ReadLine();
+                Console.WriteLine("Bienvenue " + player.Name);
             }
         }
     }
